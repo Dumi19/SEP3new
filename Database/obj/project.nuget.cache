@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SqwaVrj7bEHgbyXNIAibnE8qHo/IpEW5lFIX6/WhvkFln/Q9kz1O7a1BrMyAOIodxxbeOeh+QlvWTHFPoA8iZA==",
+  "dgSpecHash": "VNFTUKPp2yAnwNqnydXlE32J/VGkgOT1T3bHxxlLXi+8lGC+vuWax9xeHxetn6uj7Up/l5miOTUn4BFgYv1zqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\maria\\OneDrive\\Documents\\.NET\\SEP3Database\\Database\\Database.csproj",
+  "projectFilePath": "/Users/wojtek/RiderProjects/SEP3new/Database/Database.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
