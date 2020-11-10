@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/wojtek/RiderProjects/SEP3new/Database/Database.csproj": {}
+    "C:\\Users\\maria\\OneDrive\\Documents\\.NET\\SEP3Database\\Database\\Database.csproj": {}
   },
   "projects": {
-    "/Users/wojtek/RiderProjects/SEP3new/Database/Database.csproj": {
+    "C:\\Users\\maria\\OneDrive\\Documents\\.NET\\SEP3Database\\Database\\Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/wojtek/RiderProjects/SEP3new/Database/Database.csproj",
+        "projectUniqueName": "C:\\Users\\maria\\OneDrive\\Documents\\.NET\\SEP3Database\\Database\\Database.csproj",
         "projectName": "Database",
-        "projectPath": "/Users/wojtek/RiderProjects/SEP3new/Database/Database.csproj",
-        "packagesPath": "/Users/wojtek/.nuget/packages/",
-        "outputPath": "/Users/wojtek/RiderProjects/SEP3new/Database/obj/",
+        "projectPath": "C:\\Users\\maria\\OneDrive\\Documents\\.NET\\SEP3Database\\Database\\Database.csproj",
+        "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maria\\OneDrive\\Documents\\.NET\\SEP3Database\\Database\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/wojtek/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -50,7 +50,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
