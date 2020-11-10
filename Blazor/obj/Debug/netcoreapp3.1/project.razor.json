@@ -12,35 +12,35 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1510662757,
+        "HashCode": 1007197799,
         "Kind": "Components.Component",
-        "Name": "Blazor.App",
+        "Name": "Blazor.Pages.ViewUsers",
         "AssemblyName": "Blazor",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "ViewUsers"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Blazor.App"
+          "Common.TypeName": "Blazor.Pages.ViewUsers"
         }
       },
       {
-        "HashCode": -745143434,
+        "HashCode": -1500043429,
         "Kind": "Components.Component",
-        "Name": "Blazor.App",
+        "Name": "Blazor.Pages.ViewUsers",
         "AssemblyName": "Blazor",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Blazor.App"
+            "TagName": "Blazor.Pages.ViewUsers"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Blazor.App",
+          "Common.TypeName": "Blazor.Pages.ViewUsers",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -78,39 +78,6 @@
         }
       },
       {
-        "HashCode": -1150831990,
-        "Kind": "Components.Component",
-        "Name": "Blazor.Pages.FetchData",
-        "AssemblyName": "Blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Blazor.Pages.FetchData"
-        }
-      },
-      {
-        "HashCode": 1460887135,
-        "Kind": "Components.Component",
-        "Name": "Blazor.Pages.FetchData",
-        "AssemblyName": "Blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Blazor.Pages.FetchData"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Blazor.Pages.FetchData",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -941278575,
         "Kind": "Components.Component",
         "Name": "Blazor.Pages.Index",
@@ -140,6 +107,59 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Blazor.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -702061752,
+        "Kind": "Components.Component",
+        "Name": "Blazor.Shared.SurveyPrompt",
+        "AssemblyName": "Blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Blazor.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": 1295503590,
+        "Kind": "Components.Component",
+        "Name": "Blazor.Shared.SurveyPrompt",
+        "AssemblyName": "Blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Blazor.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Blazor.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -273,55 +293,35 @@
         }
       },
       {
-        "HashCode": -702061752,
+        "HashCode": -1510662757,
         "Kind": "Components.Component",
-        "Name": "Blazor.Shared.SurveyPrompt",
+        "Name": "Blazor.App",
         "AssemblyName": "Blazor",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Blazor.Shared.SurveyPrompt"
+          "Common.TypeName": "Blazor.App"
         }
       },
       {
-        "HashCode": 1295503590,
+        "HashCode": -745143434,
         "Kind": "Components.Component",
-        "Name": "Blazor.Shared.SurveyPrompt",
+        "Name": "Blazor.App",
         "AssemblyName": "Blazor",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Blazor.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "Blazor.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Blazor.Shared.SurveyPrompt",
+          "Common.TypeName": "Blazor.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -14716,8 +14716,8 @@
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\maria\\OneDrive\\Documents\\.NET\\SEP3\\Blazor\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
+      "FilePath": "c:\\Users\\maria\\OneDrive\\Documents\\.NET\\SEP3\\Blazor\\Pages\\ViewUsers.razor",
+      "TargetPath": "Pages\\ViewUsers.razor",
       "FileKind": "component"
     },
     {

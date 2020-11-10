@@ -6,12 +6,15 @@ using System.Text;
 using System.Threading;
 using Database.Model;
 using Database.DataModel;
+using System.Text.Json;
+using System.IO;
 
 namespace Server
 {
     class Server{
 
         private DataModel dataModel;
+        private string content;
         public Server(DataModel dataModel){
             this.dataModel=dataModel;
         }
@@ -29,38 +32,27 @@ namespace Server
                 TcpClient client = listener.AcceptTcpClient();
                 Console.WriteLine("Client connected");
 
-                new Thread(() => HandleClientRequest(client)).Start();
-                client.Close();
-            }
-        }
-
-        private static void HandleClientRequest(TcpClient client) {
                 NetworkStream stream = client.GetStream();
+                // read
+                byte[] dataFromClient = new byte[1024];
+                int bytesRead = stream.Read(dataFromClient, 0, dataFromClient.Length);
+                string s = Encoding.ASCII.GetString(dataFromClient, 0, bytesRead);
+                Console.WriteLine(s);
 
-                Request req = GetObject(stream);
-                switch(req.Action){
-                    case "Username":{
-                        GetUsername(req, stream);
+                switch(s){
+                    case "GetUsers":{
+                        content = File.ReadAllText("users.json");
                         break;
                     }
                 }
-        }
-
-        private static void GetUsername(Request req, NetworkStream stream) {
-        User user = new User();
-        user.Username = data.getUsername();
-        req.Arg = user;
-        
-        byte[] dataToClient = Encoding.ASCII.GetBytes($"Returning {req}");
-        stream.Write(dataToClient, 0, dataToClient.Length);
-        }
-
-        private static Request GetObject(NetworkStream stream) {
-        byte[] dataFromClient = new byte[1024];
-        int bytesRead = stream.Read(dataFromClient, 0, dataFromClient.Length);
-        string s = Encoding.ASCII.GetString(dataFromClient, 0, bytesRead);
-        Request req = JsonSerializer.Deserialize<Request>(s);
-        return req;
+                
+                // respond
+                byte[] dataToClient = Encoding.ASCII.GetBytes(content);
+                stream.Write(dataToClient, 0, dataToClient.Length);
+                
+                // close connection
+                client.Close();
+            }
         }
 
     }

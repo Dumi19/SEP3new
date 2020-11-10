@@ -3,6 +3,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using Database.Model;
+using Database.DataModel;
 
 namespace Server
 {

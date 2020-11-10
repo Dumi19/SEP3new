@@ -5,16 +5,19 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Models;
+using WebApi.Networking;
 
 namespace Data.Impl
 {
     public class UserService : IUserService
     {
+        SocketsToDatabase so = new SocketsToDatabase();
         private IList<User> users;
         private string userFile = "users.json";
         public UserService(){
             if(!File.Exists(userFile)){
-                Seed();
+                users = (IList<User>)so.getUsers();
+                //Seed();
                 WriteToUserFileTemp();
             }else{
                 string content = File.ReadAllText(userFile);
