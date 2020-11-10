@@ -1,0 +1,4 @@
+C:\Users\maria\OneDrive\Documents\.NET\SEP3Database\Database\obj\Debug\netcoreapp3.1\Database.csprojAssemblyReference.cache
+C:\Users\maria\OneDrive\Documents\.NET\SEP3Database\Database\obj\Debug\netcoreapp3.1\Database.AssemblyInfoInputs.cache
+C:\Users\maria\OneDrive\Documents\.NET\SEP3Database\Database\obj\Debug\netcoreapp3.1\Database.AssemblyInfo.cs
+C:\Users\maria\OneDrive\Documents\.NET\SEP3Database\Database\obj\Debug\netcoreapp3.1\Database.csproj.CoreCompileInputs.cache
