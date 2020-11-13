@@ -12,134 +12,55 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": -1510662757,
+        "HashCode": -702061752,
         "Kind": "Components.Component",
-        "Name": "Blazor.App",
+        "Name": "Blazor.Shared.SurveyPrompt",
         "AssemblyName": "Blazor",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Blazor.App"
+          "Common.TypeName": "Blazor.Shared.SurveyPrompt"
         }
       },
       {
-        "HashCode": -745143434,
+        "HashCode": 1295503590,
         "Kind": "Components.Component",
-        "Name": "Blazor.App",
+        "Name": "Blazor.Shared.SurveyPrompt",
         "AssemblyName": "Blazor",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Blazor.App"
+            "TagName": "Blazor.Shared.SurveyPrompt"
           }
         ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Blazor.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 31618451,
-        "Kind": "Components.Component",
-        "Name": "Blazor.Pages.Counter",
-        "AssemblyName": "Blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
+        "BoundAttributes": [
           {
-            "TagName": "Counter"
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Blazor.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": 401423034,
-        "Kind": "Components.Component",
-        "Name": "Blazor.Pages.Counter",
-        "AssemblyName": "Blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Blazor.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Blazor.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -941278575,
-        "Kind": "Components.Component",
-        "Name": "Blazor.Pages.Index",
-        "AssemblyName": "Blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Blazor.Pages.Index"
-        }
-      },
-      {
-        "HashCode": -1867545302,
-        "Kind": "Components.Component",
-        "Name": "Blazor.Pages.Index",
-        "AssemblyName": "Blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Blazor.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Blazor.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1007197799,
-        "Kind": "Components.Component",
-        "Name": "Blazor.Pages.ViewUsers",
-        "AssemblyName": "Blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "ViewUsers"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Blazor.Pages.ViewUsers"
-        }
-      },
-      {
-        "HashCode": -1500043429,
-        "Kind": "Components.Component",
-        "Name": "Blazor.Pages.ViewUsers",
-        "AssemblyName": "Blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Blazor.Pages.ViewUsers"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Blazor.Pages.ViewUsers",
+          "Common.TypeName": "Blazor.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -273,55 +194,134 @@
         }
       },
       {
-        "HashCode": -702061752,
+        "HashCode": -1510662757,
         "Kind": "Components.Component",
-        "Name": "Blazor.Shared.SurveyPrompt",
+        "Name": "Blazor.App",
         "AssemblyName": "Blazor",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Blazor.Shared.SurveyPrompt"
+          "Common.TypeName": "Blazor.App"
         }
       },
       {
-        "HashCode": 1295503590,
+        "HashCode": -745143434,
         "Kind": "Components.Component",
-        "Name": "Blazor.Shared.SurveyPrompt",
+        "Name": "Blazor.App",
         "AssemblyName": "Blazor",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Blazor.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
+            "TagName": "Blazor.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Blazor.Shared.SurveyPrompt",
+          "Common.TypeName": "Blazor.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1007197799,
+        "Kind": "Components.Component",
+        "Name": "Blazor.Pages.ViewUsers",
+        "AssemblyName": "Blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ViewUsers"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Blazor.Pages.ViewUsers"
+        }
+      },
+      {
+        "HashCode": -1500043429,
+        "Kind": "Components.Component",
+        "Name": "Blazor.Pages.ViewUsers",
+        "AssemblyName": "Blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Blazor.Pages.ViewUsers"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Blazor.Pages.ViewUsers",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 31618451,
+        "Kind": "Components.Component",
+        "Name": "Blazor.Pages.Counter",
+        "AssemblyName": "Blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Blazor.Pages.Counter"
+        }
+      },
+      {
+        "HashCode": 401423034,
+        "Kind": "Components.Component",
+        "Name": "Blazor.Pages.Counter",
+        "AssemblyName": "Blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Blazor.Pages.Counter"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Blazor.Pages.Counter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -941278575,
+        "Kind": "Components.Component",
+        "Name": "Blazor.Pages.Index",
+        "AssemblyName": "Blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Blazor.Pages.Index"
+        }
+      },
+      {
+        "HashCode": -1867545302,
+        "Kind": "Components.Component",
+        "Name": "Blazor.Pages.Index",
+        "AssemblyName": "Blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Blazor.Pages.Index"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Blazor.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
