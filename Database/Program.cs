@@ -4,6 +4,7 @@ using System.Net.Sockets;
 using System.Text;
 using Database.Model;
 using Database.DataModel;
+using Database.Networking;
 
 namespace Server
 {
@@ -12,7 +13,8 @@ namespace Server
         static void Main(string[] args)
         {
             DataModel dataModel = new DataModel();
-            Server server = new Server(dataModel);
+            ServerToJava server = new ServerToJava();
+            //Server server = new Server(dataModel);
             server.start();
         }
     }
