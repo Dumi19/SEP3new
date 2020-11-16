@@ -1,17 +1,17 @@
 @page "/viewUsers"
 @using Blazor.Data
-@using Blazor.Models
-@inject IAddUserService AddUserService
+@using Model
+@inject IAccountService AccountService
 @inject NavigationManager NavigationManager
 
 
-@if (users == null)
+@if (accounts == null)
 {
     <p>
         <em>Loading...</em>
     </p>
 }
-else if (!users.Any())
+else if (!accounts.Any())
 {
     <p>
         <em>No user items exist. Please add some.</em>
@@ -27,11 +27,11 @@ else
         </tr>
         </thead>
         <tbody>
-        @foreach (var item in usersToShow)
+        @foreach (var account in accountsToShow)
         {
             <tr>
-                <td>@item.UserName</td>
-                <td>@item.Password</td>
+                <td>@account.username</td>
+                <td>@account.password</td>
             </tr>
         }
         </tbody>
@@ -40,13 +40,13 @@ else
 
 @code {
 
-    private IList<User> users;
-    private IList<User> usersToShow;
+    private IList<Account> accounts;
+    private IList<Account> accountsToShow;
     
     protected override async Task OnInitializedAsync()
     {
-        users = await AddUserService.GetUserAsync();
-        usersToShow = users;
+        accounts = await AccountService.GetAccountsAsync();
+        accountsToShow = accounts;
         
         base.OnInitialized();
         

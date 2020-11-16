@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\maria\\OneDrive\\Documents\\.NET\\SEP3\\Blazor\\Blazor.csproj",
+  "FilePath": "c:\\Users\\Janni\\OneDrive\\Skrivebord\\SEP3new-main\\Blazor\\Blazor.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -41,125 +41,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Blazor.Pages.ViewUsers",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 31618451,
-        "Kind": "Components.Component",
-        "Name": "Blazor.Pages.Counter",
-        "AssemblyName": "Blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Blazor.Pages.Counter"
-        }
-      },
-      {
-        "HashCode": 401423034,
-        "Kind": "Components.Component",
-        "Name": "Blazor.Pages.Counter",
-        "AssemblyName": "Blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Blazor.Pages.Counter"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Blazor.Pages.Counter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -941278575,
-        "Kind": "Components.Component",
-        "Name": "Blazor.Pages.Index",
-        "AssemblyName": "Blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Blazor.Pages.Index"
-        }
-      },
-      {
-        "HashCode": -1867545302,
-        "Kind": "Components.Component",
-        "Name": "Blazor.Pages.Index",
-        "AssemblyName": "Blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Blazor.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Blazor.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -702061752,
-        "Kind": "Components.Component",
-        "Name": "Blazor.Shared.SurveyPrompt",
-        "AssemblyName": "Blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Blazor.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": 1295503590,
-        "Kind": "Components.Component",
-        "Name": "Blazor.Shared.SurveyPrompt",
-        "AssemblyName": "Blazor",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Blazor.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Blazor.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -293,6 +174,59 @@
         }
       },
       {
+        "HashCode": -702061752,
+        "Kind": "Components.Component",
+        "Name": "Blazor.Shared.SurveyPrompt",
+        "AssemblyName": "Blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Blazor.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": 1295503590,
+        "Kind": "Components.Component",
+        "Name": "Blazor.Shared.SurveyPrompt",
+        "AssemblyName": "Blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Blazor.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Blazor.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1510662757,
         "Kind": "Components.Component",
         "Name": "Blazor.App",
@@ -322,6 +256,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Blazor.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1204869960,
+        "Kind": "Components.Component",
+        "Name": "LoginComponent.Login",
+        "AssemblyName": "Blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Login"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "LoginComponent.Login"
+        }
+      },
+      {
+        "HashCode": -557741597,
+        "Kind": "Components.Component",
+        "Name": "LoginComponent.Login",
+        "AssemblyName": "Blazor",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "LoginComponent.Login"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "LoginComponent.Login",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -14706,53 +14673,48 @@
   "RootNamespace": "Blazor",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\maria\\OneDrive\\Documents\\.NET\\SEP3\\Blazor\\Shared\\SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\maria\\OneDrive\\Documents\\.NET\\SEP3\\Blazor\\App.razor",
-      "TargetPath": "App.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\maria\\OneDrive\\Documents\\.NET\\SEP3\\Blazor\\Pages\\ViewUsers.razor",
-      "TargetPath": "Pages\\ViewUsers.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\maria\\OneDrive\\Documents\\.NET\\SEP3\\Blazor\\Pages\\_Host.cshtml",
+      "FilePath": "c:\\Users\\Janni\\OneDrive\\Skrivebord\\SEP3new-main\\Blazor\\Pages\\_Host.cshtml",
       "TargetPath": "Pages\\_Host.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\maria\\OneDrive\\Documents\\.NET\\SEP3\\Blazor\\Shared\\MainLayout.razor",
+      "FilePath": "c:\\Users\\Janni\\OneDrive\\Skrivebord\\SEP3new-main\\Blazor\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\maria\\OneDrive\\Documents\\.NET\\SEP3\\Blazor\\_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "c:\\Users\\maria\\OneDrive\\Documents\\.NET\\SEP3\\Blazor\\Pages\\Counter.razor",
-      "TargetPath": "Pages\\Counter.razor",
+      "FilePath": "c:\\Users\\Janni\\OneDrive\\Skrivebord\\SEP3new-main\\Blazor\\App.razor",
+      "TargetPath": "App.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\maria\\OneDrive\\Documents\\.NET\\SEP3\\Blazor\\Shared\\NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\maria\\OneDrive\\Documents\\.NET\\SEP3\\Blazor\\Pages\\Error.cshtml",
+      "FilePath": "c:\\Users\\Janni\\OneDrive\\Skrivebord\\SEP3new-main\\Blazor\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\maria\\OneDrive\\Documents\\.NET\\SEP3\\Blazor\\Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
+      "FilePath": "c:\\Users\\Janni\\OneDrive\\Skrivebord\\SEP3new-main\\Blazor\\Pages\\ViewUsers.razor",
+      "TargetPath": "Pages\\ViewUsers.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Janni\\OneDrive\\Skrivebord\\SEP3new-main\\Blazor\\Pages\\Login.razor",
+      "TargetPath": "Pages\\Login.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Janni\\OneDrive\\Skrivebord\\SEP3new-main\\Blazor\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "c:\\Users\\Janni\\OneDrive\\Skrivebord\\SEP3new-main\\Blazor\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\Janni\\OneDrive\\Skrivebord\\SEP3new-main\\Blazor\\Shared\\SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
       "FileKind": "component"
     }
   ],
