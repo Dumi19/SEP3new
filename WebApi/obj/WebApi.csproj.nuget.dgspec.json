@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jtyta\\RiderProjects\\SEP3new\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\maria\\OneDrive\\Documents\\.NET\\SEP3\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jtyta\\RiderProjects\\SEP3new\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\maria\\OneDrive\\Documents\\.NET\\SEP3\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jtyta\\RiderProjects\\SEP3new\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\maria\\OneDrive\\Documents\\.NET\\SEP3\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\jtyta\\RiderProjects\\SEP3new\\WebApi\\WebApi.csproj",
-        "packagesPath": "C:\\Users\\jtyta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jtyta\\RiderProjects\\SEP3new\\WebApi\\obj\\",
+        "projectPath": "C:\\Users\\maria\\OneDrive\\Documents\\.NET\\SEP3\\WebApi\\WebApi.csproj",
+        "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\maria\\OneDrive\\Documents\\.NET\\SEP3\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jtyta\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

@@ -14,8 +14,9 @@ namespace Server
         {
             DataModel dataModel = new DataModel();
             ServerToJava server = new ServerToJava();
-            //Server server = new Server(dataModel);
+            Server serverc = new Server(dataModel);
             server.start();
+            serverc.start();
         }
     }
 }

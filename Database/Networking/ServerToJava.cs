@@ -29,9 +29,6 @@ namespace Database.Networking{
                 NetworkStream stream = client.GetStream();
 
                 // Receiving
-                //byte[] rcvLen = new byte[1024];
-                //int i = stream.Read(rcvLen);
-                //Console.Write(1);
                 byte[] rcvBytes = new byte[1024];
                 stream.Read(rcvBytes);
                 String rcv = System.Text.Encoding.ASCII.GetString(rcvBytes);

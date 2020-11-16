@@ -9,6 +9,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Blazor.Data;
+using Microsoft.AspNetCore.Components.Authorization;
+using Blazor.Authorization;
 
 namespace Blazor
 {
@@ -28,6 +30,8 @@ namespace Blazor
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddScoped<IAddUserService, AddUserService>();
+            services.AddScoped<IUserService, IUserService>();
+            services.AddScoped<AuthenticationStateProvider, CustomAuthenticationStateProvider>();
 
         }
 
@@ -41,8 +45,10 @@ namespace Blazor
             else
             {
                 app.UseExceptionHandler("/Error");
+                app.UseHsts();
             }
 
+            app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
